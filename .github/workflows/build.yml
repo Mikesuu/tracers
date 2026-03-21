@@ -39,8 +39,8 @@ jobs:
                       elif '.' in host and not host.startswith('['):
                           domains.add(host)
 
-          mkdir = __import__('os').makedirs
-          mkdir('rules', exist_ok=True)
+          import os
+          os.makedirs('rules', exist_ok=True)
 
           with open('rules/tracker-domain.yaml', 'w') as f:
               f.write('payload:\n')
@@ -51,6 +51,11 @@ jobs:
               f.write('payload:\n')
               for ip in sorted(ips):
                   f.write(f'  - {ip}/32\n')
+
+          with open('rules/mikrotik-tracker.rsc', 'w') as f:
+              f.write('/ip firewall address-list remove [find list=BT-Tracker]\n')
+              for ip in sorted(ips):
+                  f.write(f'/ip firewall address-list add list=BT-Tracker address={ip}\n')
 
           print(f'Domains: {len(domains)}, IPs: {len(ips)}')
           EOF
