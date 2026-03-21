@@ -15,6 +15,8 @@ jobs:
         run: |
           curl -sL https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all.txt -o /tmp/trackers1.txt
           curl -sL https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/all.txt -o /tmp/trackers2.txt
+          curl -sL https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ip.txt -o /tmp/trackers_ip1.txt
+          curl -sL https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/all_aria2.txt -o /tmp/trackers_ip2.txt
 
           cat /tmp/trackers1.txt /tmp/trackers2.txt | \
             grep -oP '(?<=://)[^/:]+' | \
@@ -22,8 +24,8 @@ jobs:
             grep -v '^$' | \
             sort -u > /tmp/domains.txt
 
-          cat /tmp/trackers1.txt /tmp/trackers2.txt | \
-            grep -oP '(?<=://)[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+' | \
+          cat /tmp/trackers_ip1.txt /tmp/trackers_ip2.txt | \
+            grep -oP '^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+' | \
             sort -u | \
             awk '{print $0"/32"}' > /tmp/ips.txt
 
