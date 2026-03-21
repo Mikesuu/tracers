@@ -17,24 +17,43 @@ jobs:
           curl -sL https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ip.txt -o /tmp/ng_ip.txt
           curl -sL https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/all.txt -o /tmp/xiu_all.txt
 
-          cat /tmp/ng_all.txt /tmp/xiu_all.txt | \
-            grep -oP '(?<=://)[^/:]+' | \
-            grep -v '^[0-9.]*$' | \
-            grep -v '^$' | \
-            sort -u > /tmp/domains.txt
+          python3 << 'EOF'
+          import re
 
-          cat /tmp/ng_all.txt /tmp/ng_ip.txt /tmp/xiu_all.txt | \
-            grep -oP '(?<=://)[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+' | \
-            sort -u | \
-            awk '{print $0"/32"}' > /tmp/ips.txt
+          files = ['/tmp/ng_all.txt', '/tmp/ng_ip.txt', '/tmp/xiu_all.txt']
+          domains = set()
+          ips = set()
 
-          mkdir -p rules
+          for f in files:
+              with open(f) as fp:
+                  for line in fp:
+                      line = line.strip()
+                      if not line:
+                          continue
+                      m = re.match(r'(?:udp|http|https|ws|wss)://([^/:]+)', line)
+                      if not m:
+                          continue
+                      host = m.group(1)
+                      if re.match(r'^\d+\.\d+\.\d+\.\d+$', host):
+                          ips.add(host)
+                      elif '.' in host and not host.startswith('['):
+                          domains.add(host)
 
-          echo "payload:" > rules/tracker-domain.yaml
-          awk '{print "  - " $0}' /tmp/domains.txt >> rules/tracker-domain.yaml
+          mkdir = __import__('os').makedirs
+          mkdir('rules', exist_ok=True)
 
-          echo "payload:" > rules/tracker-ip.yaml
-          awk '{print "  - " $0}' /tmp/ips.txt >> rules/tracker-ip.yaml
+          with open('rules/tracker-domain.yaml', 'w') as f:
+              f.write('payload:\n')
+              for d in sorted(domains):
+                  f.write(f'  - {d}\n')
+
+          with open('rules/tracker-ip.yaml', 'w') as f:
+              f.write('payload:\n')
+              for ip in sorted(ips):
+                  f.write(f'  - {ip}/32\n')
+
+          print(f'Domains: {len(domains)}, IPs: {len(ips)}')
+          EOF
 
       - name: Commit and push
         run: |
