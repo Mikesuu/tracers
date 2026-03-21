@@ -1,0 +1,43 @@
+name: Build Tracker Rules
+
+on:
+  schedule:
+    - cron: '0 18 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build tracker rules
+        run: |
+          curl -sL https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all.txt -o /tmp/trackers1.txt
+          curl -sL https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/all.txt -o /tmp/trackers2.txt
+
+          cat /tmp/trackers1.txt /tmp/trackers2.txt | \
+            grep -oP '(?<=://)[^/:]+' | \
+            grep -v '^[0-9.]*$' | \
+            grep -v '^$' | \
+            sort -u > /tmp/domains.txt
+
+          cat /tmp/trackers1.txt /tmp/trackers2.txt | \
+            grep -oP '(?<=://)[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+' | \
+            sort -u | \
+            awk '{print $0"/32"}' > /tmp/ips.txt
+
+          mkdir -p rules
+          echo "payload:" > rules/tracker-domain.yaml
+          awk '{print "  - " $0}' /tmp/domains.txt >> rules/tracker-domain.yaml
+
+          echo "payload:" > rules/tracker-ip.yaml
+          awk '{print "  - " $0}' /tmp/ips.txt >> rules/tracker-ip.yaml
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add rules/
+          git diff --staged --quiet || git commit -m "Auto update tracker rules $(date '+%Y-%m-%d')"
+          git push
