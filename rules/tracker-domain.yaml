@@ -11,7 +11,6 @@ payload:
   - bughome.de
   - bvarf.tracker.sh
   - cny.fan
-  - colibri.parrot.run
   - d40969.acod.regrucolo.ru
   - evan.im
   - exodus.desync.com
@@ -25,6 +24,7 @@ payload:
   - martin-gebhardt.eu
   - node01.torrentonline.cc
   - node01.trackerstatus.live
+  - node02.madtia.cc
   - ns575949.ip-51-222-82.net
   - nyaa.tracker.wf
   - open.acgtracker.com
@@ -39,7 +39,6 @@ payload:
   - rekcart.duckdns.org
   - retracker.hotplug.ru
   - s1130639.ha009.t.mydomain.zone
-  - s1130642.ha014.t.mydomain.zone
   - shahidrazi.online
   - speedtest.iperson.xyz
   - t.213891.xyz
@@ -47,19 +46,18 @@ payload:
   - torrent.tracker.durukanbal.com
   - torrentclub.online
   - torrentsmd.com
-  - torrentvpn.club
   - tr.abiir.top
-  - tr.abir.ga
   - tr.highstar.shop
   - tr.kxmp.cf
   - tr.nyacat.pw
   - tr.zukizuki.org
+  - tr4ck3r.duckdns.org
   - tracker-de-2.cutie.dating
   - tracker-udp.gbitt.info
   - tracker-zhuqiy.xn--1r3au8b.space
   - tracker.004430.xyz
   - tracker.1h.is
-  - tracker.23794.top
+  - tracker.7471.top
   - tracker.bittor.pw
   - tracker.bluefrog.pw
   - tracker.breizh.pm
@@ -86,6 +84,7 @@ payload:
   - tracker.manager.v6.navy
   - tracker.moeblog.cn
   - tracker.moeking.me
+  - tracker.mrhei.tech
   - tracker.mywaifu.best
   - tracker.nekomi.cn
   - tracker.opentorrent.top
