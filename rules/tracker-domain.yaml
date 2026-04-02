@@ -1,27 +1,24 @@
 payload:
   - 004430.xyz
   - 0123456789nonexistent.com
-  - 0d.kebhana.mx
   - 1337.abcvg.info
+  - 6ahddutb1ucc3cp.ru
   - aboutbeautifulgallopinghorsesinthegreenpasture.online
   - admin.52ywp.com
+  - bandito.byterunner.io
   - bittorrent-tracker.e-n-c-r-y-p-t.net
   - bt.okmp3.ru
-  - bt.poletracker.org
   - bt.rer.lol
-  - bt1.xxxxbt.cc
-  - bughome.de
   - buny.uk
   - bvarf.tracker.sh
   - cny.fan
+  - colibri.parrot.run
   - d40969.acod.regrucolo.ru
   - evan.im
   - exodus.desync.com
   - explodie.org
-  - home.yxgz.club
   - http1.torrust-tracker-demo.com
   - ipv4announce.sktorrent.eu
-  - jvavav.com
   - leet-tracker.moe
   - lucke.fenesisu.moe
   - martin-gebhardt.eu
@@ -42,15 +39,11 @@ payload:
   - pybittrack.retiolus.net
   - rekcart.duckdns.org
   - retracker.hotplug.ru
-  - retracker.spark-rostov.ru
   - s1130639.ha009.t.mydomain.zone
-  - s1130642.ha014.t.mydomain.zone
   - seeders-paradise.org
   - seedpeer.net
   - shahidrazi.online
-  - share.hkg-fansub.info
   - shubt.net
-  - speedtest.iperson.xyz
   - t.213891.xyz
   - t.overflow.biz
   - torrent.hificode.in
@@ -58,7 +51,6 @@ payload:
   - torrentclub.online
   - torrentsmd.com
   - tr.abiir.top
-  - tr.abir.ga
   - tr.highstar.shop
   - tr.kxmp.cf
   - tr.nyacat.pw
@@ -72,9 +64,7 @@ payload:
   - tracker.bittor.pw
   - tracker.bluefrog.pw
   - tracker.breizh.pm
-  - tracker.bt-hash.com
   - tracker.bt4g.com
-  - tracker.bz
   - tracker.corpscorp.online
   - tracker.cutie.dating
   - tracker.darkness.services
@@ -88,19 +78,19 @@ payload:
   - tracker.filemail.com
   - tracker.flatuslifir.is
   - tracker.fnix.net
+  - tracker.gcrenwp.top
   - tracker.ghostchu-services.top
   - tracker.gmi.gd
-  - tracker.huadongblower.xyz
   - tracker.iperson.xyz
-  - tracker.ipv6tracker.org
   - tracker.ixuexi.click
   - tracker.kuroy.me
   - tracker.lintk.me
   - tracker.manager.v6.navy
+  - tracker.moeblog.cn
   - tracker.moeking.me
-  - tracker.moxing.party
   - tracker.mywaifu.best
   - tracker.nekomi.cn
+  - tracker.nyaa.vc
   - tracker.opentorrent.top
   - tracker.opentrackr.org
   - tracker.openwebtorrent.com
@@ -110,7 +100,6 @@ payload:
   - tracker.qingwapt.org
   - tracker.qu.ax
   - tracker.renfei.net
-  - tracker.sbsub.com
   - tracker.skyts.net
   - tracker.srv00.com
   - tracker.t-1.org
@@ -124,25 +113,22 @@ payload:
   - tracker.vanitycore.co
   - tracker.waaa.moe
   - tracker.wepzone.net
+  - tracker.wildkat.net
   - tracker.xiaoduola.xyz
   - tracker.xn--djrq4gl4hvoi.top
   - tracker.yggleak.top
   - tracker.yume-hatsuyuki.moe
-  - tracker.zhuqiy.dgj055.icu
+  - tracker.zhuqiy.com
   - tracker1.520.jp
   - tracker1.itzmx.com
-  - tracker1.myporn.club
   - tracker2.dler.org
   - tracker2.itzmx.com
   - tracker3.ctix.cn
   - tracker3.itzmx.com
   - tracker4.itzmx.com
-  - tracker810.xyz
   - uabits.today
   - udp.tracker.projectk.org
   - udp1.torrust-tracker-demo.com
   - utracker.ghostchu-services.top
   - wepzone.net
-  - www.genesis-sp.org
   - www.nartlof.com
-  - www.torrentsnipe.info
