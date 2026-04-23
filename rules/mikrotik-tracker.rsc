@@ -1,4 +1,5 @@
 /ip firewall address-list remove [find list=BT-Tracker]
+/ip firewall address-list add list=BT-Tracker address=103.251.166.126
 /ip firewall address-list add list=BT-Tracker address=107.189.2.131
 /ip firewall address-list add list=BT-Tracker address=107.189.4.235
 /ip firewall address-list add list=BT-Tracker address=107.189.7.165
@@ -6,7 +7,7 @@
 /ip firewall address-list add list=BT-Tracker address=113.17.152.249
 /ip firewall address-list add list=BT-Tracker address=135.125.236.64
 /ip firewall address-list add list=BT-Tracker address=140.235.237.23
-/ip firewall address-list add list=BT-Tracker address=147.45.77.75
+/ip firewall address-list add list=BT-Tracker address=144.126.245.19
 /ip firewall address-list add list=BT-Tracker address=173.201.36.219
 /ip firewall address-list add list=BT-Tracker address=177.16.198.58
 /ip firewall address-list add list=BT-Tracker address=185.121.168.96
@@ -14,12 +15,14 @@
 /ip firewall address-list add list=BT-Tracker address=185.216.179.62
 /ip firewall address-list add list=BT-Tracker address=185.243.218.213
 /ip firewall address-list add list=BT-Tracker address=192.3.130.53
+/ip firewall address-list add list=BT-Tracker address=193.148.251.93
 /ip firewall address-list add list=BT-Tracker address=193.187.90.12
 /ip firewall address-list add list=BT-Tracker address=2.57.214.218
 /ip firewall address-list add list=BT-Tracker address=207.241.226.111
-/ip firewall address-list add list=BT-Tracker address=207.241.231.226
+/ip firewall address-list add list=BT-Tracker address=209.141.59.16
 /ip firewall address-list add list=BT-Tracker address=209.141.59.25
-/ip firewall address-list add list=BT-Tracker address=211.75.205.187
+/ip firewall address-list add list=BT-Tracker address=209.50.255.93
+/ip firewall address-list add list=BT-Tracker address=211.75.205.188
 /ip firewall address-list add list=BT-Tracker address=211.75.205.189
 /ip firewall address-list add list=BT-Tracker address=212.42.38.197
 /ip firewall address-list add list=BT-Tracker address=216.144.239.90
@@ -28,7 +31,6 @@
 /ip firewall address-list add list=BT-Tracker address=37.120.182.83
 /ip firewall address-list add list=BT-Tracker address=43.250.54.137
 /ip firewall address-list add list=BT-Tracker address=44.30.4.4
-/ip firewall address-list add list=BT-Tracker address=45.134.88.121
 /ip firewall address-list add list=BT-Tracker address=45.146.254.59
 /ip firewall address-list add list=BT-Tracker address=5.255.124.190
 /ip firewall address-list add list=BT-Tracker address=51.222.82.36
@@ -38,7 +40,7 @@
 /ip firewall address-list add list=BT-Tracker address=74.119.149.136
 /ip firewall address-list add list=BT-Tracker address=81.230.84.201
 /ip firewall address-list add list=BT-Tracker address=88.80.22.67
-/ip firewall address-list add list=BT-Tracker address=89.234.156.205
+/ip firewall address-list add list=BT-Tracker address=91.186.213.204
 /ip firewall address-list add list=BT-Tracker address=93.158.213.92
 /ip firewall address-list add list=BT-Tracker address=94.23.207.177
 /ip firewall address-list add list=BT-Tracker address=95.217.167.10
