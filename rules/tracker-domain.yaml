@@ -14,7 +14,6 @@ payload:
   - coeus.torrentonline.cc
   - evan.im
   - exodus.desync.com
-  - explodie.org
   - http1.torrust-tracker-demo.com
   - ipv4announce.sktorrent.eu
   - leet-tracker.moe
@@ -32,18 +31,12 @@ payload:
   - rekcart.duckdns.org
   - retracker.hotplug.ru
   - seedpeer.net
-  - shubt.net
   - t.213891.xyz
   - t.overflow.biz
-  - torrent.bowed.net
-  - torrent.hificode.in
-  - torrent.tracker.durukanbal.com
   - torrentclub.online
   - torrents.tmtime.dev
   - torrentsmd.com
-  - torrenttracker.nwc.acsalaska.net
   - tr.abiir.top
-  - tr.abir.ga
   - tr.highstar.shop
   - tr.kxmp.cf
   - tr.nyacat.pw
@@ -51,12 +44,12 @@ payload:
   - tracker-udp.gbitt.info
   - tracker.004430.xyz
   - tracker.1h.is
-  - tracker.23794.top
   - tracker.7471.top
   - tracker.bittor.pw
   - tracker.bluefrog.pw
   - tracker.breizh.pm
   - tracker.bt4g.com
+  - tracker.cangku.moe
   - tracker.corpscorp.online
   - tracker.ddunlimited.net
   - tracker.dhitechnical.com
@@ -74,6 +67,7 @@ payload:
   - tracker.kuroy.me
   - tracker.lenition.de
   - tracker.manager.v6.navy
+  - tracker.moeblog.cn
   - tracker.moeking.me
   - tracker.mywaifu.best
   - tracker.nekomi.cn
@@ -96,7 +90,6 @@ payload:
   - tracker.torrust-demo.com
   - tracker.tritan.gg
   - tracker.tryhackx.org
-  - tracker.tvunderground.org.ru
   - tracker.waaa.moe
   - tracker.wildkat.net
   - tracker.xn--djrq4gl4hvoi.top
@@ -111,13 +104,12 @@ payload:
   - tracker3.ctix.cn
   - tracker3.itzmx.com
   - tracker4.itzmx.com
-  - tracker810.xyz
+  - trackthis.cyber.pz.it
   - uabits.today
   - udp.tracker.projectk.org
   - udp1.torrust-tracker-demo.com
   - vito-tracker.duckdns.org
   - vito-tracker.space
-  - whybother.torrentonline.cc
   - www.nartlof.com
   - www.wareztorrent.com
   - yuptracker-eu.gaijinent.com
