@@ -8,15 +8,14 @@ payload:
   - bandito.byterunner.io
   - bittorrent-tracker.e-n-c-r-y-p-t.net
   - bt.okmp3.ru
-  - bt.poletracker.org
   - bt1.archive.org
-  - buny.uk
+  - bt2.archive.org
   - bvarf.tracker.sh
   - cerf.cs.umd.edu
+  - cn.pcfreetime.com
   - coeus.torrentonline.cc
   - evan.im
   - exodus.desync.com
-  - explodie.org
   - http1.torrust-tracker-demo.com
   - ipv4announce.sktorrent.eu
   - leet-tracker.moe
@@ -36,11 +35,13 @@ payload:
   - seedpeer.net
   - speedtest.iperson.xyz
   - t.213891.xyz
-  - torrent.hificode.in
+  - t.overflow.biz
+  - torrent.bowed.net
   - torrentclub.online
   - torrents.tmtime.dev
   - torrentsmd.com
   - tr.abiir.top
+  - tr.abir.ga
   - tr.highstar.shop
   - tr.kxmp.cf
   - tr.nyacat.pw
@@ -48,14 +49,11 @@ payload:
   - tracker-udp.gbitt.info
   - tracker.004430.xyz
   - tracker.1h.is
-  - tracker.23794.top
   - tracker.7471.top
   - tracker.bittor.pw
   - tracker.bluefrog.pw
   - tracker.breizh.pm
-  - tracker.bt-hash.com
   - tracker.bt4g.com
-  - tracker.bz
   - tracker.corpscorp.online
   - tracker.ddunlimited.net
   - tracker.dhitechnical.com
@@ -67,8 +65,7 @@ payload:
   - tracker.fnix.net
   - tracker.gcrenwp.top
   - tracker.gmi.gd
-  - tracker.hismz.cn
-  - tracker.iperson.xyz
+  - tracker.huadongblower.xyz
   - tracker.kuroy.me
   - tracker.manager.v6.navy
   - tracker.moeking.me
@@ -78,7 +75,6 @@ payload:
   - tracker.opentorrent.top
   - tracker.opentrackr.org
   - tracker.openwebtorrent.com
-  - tracker.playground.ru
   - tracker.plx.im
   - tracker.pmman.tech
   - tracker.qingwapt.org
@@ -90,15 +86,12 @@ payload:
   - tracker.theoks.net
   - tracker.torrent.eu.org
   - tracker.torrentclaw.com
-  - tracker.torrust-demo.com
+  - tracker.tritan.gg
   - tracker.tryhackx.org
-  - tracker.vanitycore.co
   - tracker.waaa.moe
   - tracker.wildkat.net
-  - tracker.xiaoduola.xyz
   - tracker.xn--djrq4gl4hvoi.top
   - tracker.yemekyedim.com
-  - tracker.yume-hatsuyuki.moe
   - tracker.zhuqiy.com
   - tracker1.520.jp
   - tracker1.itzmx.com
@@ -107,9 +100,9 @@ payload:
   - tracker3.ctix.cn
   - tracker3.itzmx.com
   - tracker4.itzmx.com
-  - tracker810.xyz
-  - trackthis.cyber.pz.it
+  - u.peer-exchange.download
   - uabits.today
+  - udp.trackarr.org
   - udp.tracker.projectk.org
   - udp1.torrust-tracker-demo.com
   - vito-tracker.duckdns.org
@@ -117,6 +110,5 @@ payload:
   - wepzone.net
   - whybother.torrentonline.cc
   - www.nartlof.com
-  - www.torrentsnipe.info
   - www.wareztorrent.com
   - yuptracker-eu.gaijinent.com
