@@ -7,22 +7,21 @@ payload:
   - archive.torrentonline.cc
   - bandito.byterunner.io
   - bittorrent-tracker.e-n-c-r-y-p-t.net
-  - bt.okmp3.ru
   - bt1.archive.org
   - bt2.archive.org
   - bvarf.tracker.sh
   - cerf.cs.umd.edu
-  - cn.pcfreetime.com
   - coeus.torrentonline.cc
+  - colibri.parrot.run
   - evan.im
   - exodus.desync.com
+  - explodie.org
   - http1.torrust-tracker-demo.com
   - ipv4announce.sktorrent.eu
   - leet-tracker.moe
   - martin-gebhardt.eu
   - ns575949.ip-51-222-82.net
   - nyaa.tracker.wf
-  - obey.torrentonline.cc
   - open.demonii.com
   - open.ftorrent.com
   - open.stealth.si
@@ -36,14 +35,12 @@ payload:
   - speedtest.iperson.xyz
   - t.213891.xyz
   - t.overflow.biz
-  - torrent.bowed.net
   - torrentclub.online
   - torrents.tmtime.dev
   - torrentsmd.com
   - tr.abiir.top
   - tr.abir.ga
   - tr.highstar.shop
-  - tr.kxmp.cf
   - tr.nyacat.pw
   - tr4ck3r.duckdns.org
   - tracker-udp.gbitt.info
@@ -66,8 +63,10 @@ payload:
   - tracker.gcrenwp.top
   - tracker.gmi.gd
   - tracker.huadongblower.xyz
+  - tracker.iperson.xyz
   - tracker.kuroy.me
   - tracker.manager.v6.navy
+  - tracker.moeblog.cn
   - tracker.moeking.me
   - tracker.mywaifu.best
   - tracker.nekomi.cn
@@ -75,6 +74,7 @@ payload:
   - tracker.opentorrent.top
   - tracker.opentrackr.org
   - tracker.openwebtorrent.com
+  - tracker.playground.ru
   - tracker.plx.im
   - tracker.pmman.tech
   - tracker.qingwapt.org
@@ -83,16 +83,18 @@ payload:
   - tracker.skyts.net
   - tracker.srv00.com
   - tracker.t-1.org
-  - tracker.theoks.net
   - tracker.torrent.eu.org
   - tracker.torrentclaw.com
+  - tracker.torrust-demo.com
   - tracker.tritan.gg
   - tracker.tryhackx.org
   - tracker.waaa.moe
   - tracker.wildkat.net
   - tracker.xn--djrq4gl4hvoi.top
   - tracker.yemekyedim.com
+  - tracker.yume-hatsuyuki.moe
   - tracker.zhuqiy.com
+  - tracker.zhuqiy.dgj055.icu
   - tracker1.520.jp
   - tracker1.itzmx.com
   - tracker2.dler.org
@@ -100,6 +102,7 @@ payload:
   - tracker3.ctix.cn
   - tracker3.itzmx.com
   - tracker4.itzmx.com
+  - trackthis.cyber.pz.it
   - u.peer-exchange.download
   - uabits.today
   - udp.trackarr.org
