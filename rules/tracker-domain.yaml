@@ -1,6 +1,5 @@
 payload:
   - 004430.xyz
-  - 0123456789nonexistent.com
   - 021912.xyz
   - 0d.kebhana.mx
   - 1337.abcvg.info
@@ -11,6 +10,7 @@ payload:
   - archive.torrentonline.cc
   - banananetwork.qzz.io
   - bittorrent-tracker.e-n-c-r-y-p-t.net
+  - bt.okmp3.ru
   - bt.poletracker.org
   - bt1.archive.org
   - bt1.xxxxbt.cc
@@ -21,6 +21,7 @@ payload:
   - evan.im
   - exodus.desync.com
   - explodie.org
+  - home.yxgz.club
   - ht.therarbg.to
   - ipv4announce.sktorrent.eu
   - jvavav.com
@@ -42,18 +43,23 @@ payload:
   - pybittrack.retiolus.net
   - rekcart.duckdns.org
   - retracker.hotplug.ru
+  - retracker.spark-rostov.ru
   - retracker01-msk-virt.corbina.net
   - seeders-paradise.org
   - seedpeer.net
   - shahidrazi.online
+  - share.hkg-fansub.info
   - shubt.net
   - t.213891.xyz
   - t.overflow.biz
   - torrent.hificode.in
+  - torrent.tracker.durukanbal.com
   - torrentclub.online
   - torrents.tmtime.dev
   - torrentsmd.com
   - tr.abiir.top
+  - tr.abir.ga
+  - tr.btube3.com
   - tr.highstar.shop
   - tr.nyacat.pw
   - tr.zukizuki.org
@@ -67,21 +73,22 @@ payload:
   - tracker.bittor.pw
   - tracker.bluefrog.pw
   - tracker.breizh.pm
+  - tracker.bt-hash.com
   - tracker.bt4g.com
-  - tracker.bz
   - tracker.cbase.cc
   - tracker.corpscorp.online
   - tracker.ddunlimited.net
   - tracker.dhitechnical.com
   - tracker.dler.com
   - tracker.dler.org
+  - tracker.dmcomic.org
   - tracker.ducks.party
   - tracker.filemail.com
+  - tracker.flatuslifir.is
   - tracker.gcrenwp.top
   - tracker.gmi.gd
   - tracker.hismz.cn
   - tracker.ilibr.org
-  - tracker.ipv6tracker.org
   - tracker.kuroy.me
   - tracker.leechshield.link
   - tracker.lintk.me
@@ -101,12 +108,15 @@ payload:
   - tracker.publictracker.xyz
   - tracker.qu.ax
   - tracker.renfei.net
+  - tracker.sbsub.com
   - tracker.skyts.net
   - tracker.teambelgium.net
   - tracker.therarbg.to
   - tracker.torrent.eu.org
   - tracker.trackarr.org
+  - tracker.tritan.gg
   - tracker.tryhackx.org
+  - tracker.vanitycore.co
   - tracker.waaa.moe
   - tracker.wildkat.net
   - tracker.xiaoduola.xyz
@@ -119,8 +129,9 @@ payload:
   - tracker2.itzmx.com
   - tracker3.itzmx.com
   - tracker4.itzmx.com
+  - tracker810.xyz
   - whybother.torrentonline.cc
-  - www.genesis-sp.org
+  - www.torrentsnipe.info
   - www.wareztorrent.com
   - yuptracker-eu.gaijinent.com
   - zer0day.ch
