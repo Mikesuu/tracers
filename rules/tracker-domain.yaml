@@ -9,13 +9,14 @@ payload:
   - archive.torrentonline.cc
   - banananetwork.qzz.io
   - bittorrent-tracker.e-n-c-r-y-p-t.net
+  - bt.poletracker.org
   - bt1.archive.org
   - bt2.archive.org
-  - coeus.torrentonline.cc
   - concen.org
   - evan.im
   - exodus.desync.com
   - explodie.org
+  - home.yxgz.club
   - ht.therarbg.to
   - ipv4announce.sktorrent.eu
   - leet-tracker.moe
@@ -29,6 +30,7 @@ payload:
   - open.ftorrent.com
   - open.stealth.si
   - open.tracker.ink
+  - open.trackerlist.xyz
   - opentor.org
   - orgtgju.org
   - p4p.arenabg.com
@@ -36,9 +38,13 @@ payload:
   - rekcart.duckdns.org
   - retracker.hotplug.ru
   - retracker01-msk-virt.corbina.net
+  - seeders-paradise.org
   - shahidrazi.online
+  - shubt.net
   - t.213891.xyz
   - t.overflow.biz
+  - torrent.hificode.in
+  - torrent.tracker.durukanbal.com
   - torrentclub.online
   - torrents.tmtime.dev
   - torrentsmd.com
@@ -59,7 +65,6 @@ payload:
   - tracker.bluefrog.pw
   - tracker.breizh.pm
   - tracker.bt4g.com
-  - tracker.bug38.com
   - tracker.corpscorp.online
   - tracker.cubonegro.org
   - tracker.ddunlimited.net
@@ -77,6 +82,7 @@ payload:
   - tracker.leechshield.link
   - tracker.manager.itislove.cz
   - tracker.manager.v6.navy
+  - tracker.moxing.party
   - tracker.mywaifu.best
   - tracker.nekomi.cn
   - tracker.nyaa.vc
@@ -86,13 +92,13 @@ payload:
   - tracker.openwebtorrent.com
   - tracker.peerfect.org
   - tracker.playground.ru
-  - tracker.plx.im
   - tracker.pmman.tech
   - tracker.privateseedbox.xyz
   - tracker.publictracker.xyz
   - tracker.qingwapt.org
   - tracker.qu.ax
   - tracker.renfei.net
+  - tracker.sbsub.com
   - tracker.skyts.net
   - tracker.teambelgium.net
   - tracker.therarbg.to
@@ -100,6 +106,7 @@ payload:
   - tracker.trackarr.org
   - tracker.tritan.gg
   - tracker.tryhackx.org
+  - tracker.vanitycore.co
   - tracker.waaa.moe
   - tracker.wildkat.net
   - tracker.xn--djrq4gl4hvoi.top
@@ -112,9 +119,7 @@ payload:
   - tracker2.itzmx.com
   - tracker3.itzmx.com
   - tracker4.itzmx.com
+  - tracker810.xyz
   - whybother.torrentonline.cc
   - www.wareztorrent.com
-  - yuptracker-eu.gaijinent.com
-  - yuptracker-sa.gaijinent.com
-  - yuptracker-us.gaijinent.com
-  - yuptracker.gaijinent.com
+  - zer0day.ch
