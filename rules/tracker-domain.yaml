@@ -9,7 +9,6 @@ payload:
   - archive.torrentonline.cc
   - banananetwork.qzz.io
   - bittorrent-tracker.e-n-c-r-y-p-t.net
-  - bt.okmp3.ru
   - bt1.archive.org
   - bt2.archive.org
   - coeus.torrentonline.cc
@@ -22,7 +21,6 @@ payload:
   - lucke.fenesisu.moe
   - mail.segso.net
   - martin-gebhardt.eu
-  - ns3109441.mypdns.org
   - ns575949.ip-51-222-82.net
   - nyaa.tracker.wf
   - obey.torrentonline.cc
@@ -66,7 +64,6 @@ payload:
   - tracker.dler.org
   - tracker.ducks.party
   - tracker.filemail.com
-  - tracker.flatuslifir.is
   - tracker.foreverpirates.co
   - tracker.gmi.gd
   - tracker.ilibr.org
@@ -95,10 +92,8 @@ payload:
   - tracker.teambelgium.net
   - tracker.theoks.net
   - tracker.torrent.eu.org
-  - tracker.tryhackx.org
   - tracker.waaa.moe
   - tracker.wildkat.net
-  - tracker.xn--djrq4gl4hvoi.top
   - tracker.yemekyedim.com
   - tracker.zhuqiy.com
   - tracker.zhuqiy.dgj055.icu
