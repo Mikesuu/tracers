@@ -1,7 +1,6 @@
 payload:
   - 004430.xyz
   - 021912.xyz
-  - 0d.kebhana.mx
   - 1337.abcvg.info
   - aboutbeautifulgallopinghorsesinthegreenpasture.online
   - admin.52ywp.com
@@ -10,17 +9,17 @@ payload:
   - archive.torrentonline.cc
   - banananetwork.qzz.io
   - bittorrent-tracker.e-n-c-r-y-p-t.net
-  - bt.okmp3.ru
   - bt1.archive.org
   - bt1.xxxxbt.cc
   - bt2.archive.org
-  - buny.uk
+  - coeus.torrentonline.cc
+  - edgev.duckdns.org
   - evan.im
   - exodus.desync.com
   - explodie.org
-  - home.yxgz.club
   - ht.therarbg.to
   - ipv4announce.sktorrent.eu
+  - jvavav.com
   - leet-tracker.moe
   - lucke.fenesisu.moe
   - mail.segso.net
@@ -35,7 +34,6 @@ payload:
   - open.stealth.si
   - open.tracker.cl
   - open.tracker.ink
-  - open.trackerlist.xyz
   - opentor.org
   - orgtgju.org
   - p4p.arenabg.com
@@ -44,8 +42,8 @@ payload:
   - retracker.hotplug.ru
   - retracker.spark-rostov.ru
   - retracker01-msk-virt.corbina.net
+  - seedpeer.net
   - shahidrazi.online
-  - share.hkg-fansub.info
   - shubt.net
   - t.213891.xyz
   - t.overflow.biz
@@ -53,27 +51,25 @@ payload:
   - torrentclub.online
   - torrentsmd.com
   - tr.abiir.top
-  - tr.btube3.com
+  - tr.abir.ga
   - tr.highstar.shop
   - tr.kxmp.cf
   - tr.nyacat.pw
   - tr4ck3r.duckdns.org
   - tracker-udp.gbitt.info
-  - tracker.23794.top
   - tracker.7471.top
   - tracker.adgk.net
   - tracker.aruku.ovh
   - tracker.auctor.tv
   - tracker.bittor.pw
-  - tracker.bluefrog.pw
   - tracker.breizh.pm
+  - tracker.bt-hash.com
   - tracker.bt4g.com
   - tracker.corpscorp.online
   - tracker.ddunlimited.net
   - tracker.dhitechnical.com
   - tracker.dler.com
   - tracker.dler.org
-  - tracker.dmcomic.org
   - tracker.ducks.party
   - tracker.filemail.com
   - tracker.flatuslifir.is
@@ -81,11 +77,10 @@ payload:
   - tracker.gcrenwp.top
   - tracker.gmi.gd
   - tracker.ilibr.org
-  - tracker.ipv6tracker.org
   - tracker.kuroy.me
   - tracker.leechshield.link
   - tracker.lintk.me
-  - tracker.moxing.party
+  - tracker.manager.itislove.cz
   - tracker.mywaifu.best
   - tracker.nekomi.cn
   - tracker.nexusstream.eu
@@ -103,7 +98,6 @@ payload:
   - tracker.qingwapt.org
   - tracker.qu.ax
   - tracker.renfei.net
-  - tracker.sbsub.com
   - tracker.skyts.net
   - tracker.teambelgium.net
   - tracker.theoks.net
@@ -122,10 +116,6 @@ payload:
   - tracker2.itzmx.com
   - tracker3.itzmx.com
   - tracker4.itzmx.com
-  - tracker810.xyz
   - v6.vito-tracker.space
   - whybother.torrentonline.cc
-  - www.genesis-sp.org
-  - www.torrentsnipe.info
   - www.wareztorrent.com
-  - zer0day.ch
