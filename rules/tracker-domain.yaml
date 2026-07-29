@@ -20,7 +20,6 @@ payload:
   - lucke.fenesisu.moe
   - mail.segso.net
   - martin-gebhardt.eu
-  - ns3109441.mypdns.org
   - ns575949.ip-51-222-82.net
   - nyaa.tracker.wf
   - obey.torrentonline.cc
@@ -28,7 +27,6 @@ payload:
   - open.demonoid.ch
   - open.ftorrent.com
   - open.stealth.si
-  - open.tracker.cl
   - open.tracker.ink
   - opentor.org
   - orgtgju.org
@@ -45,19 +43,21 @@ payload:
   - torrentclub.online
   - torrentsmd.com
   - tr.abiir.top
-  - tr.btube3.com
   - tr.highstar.shop
   - tr.kxmp.cf
   - tr.nyacat.pw
   - tr.zukizuki.org
+  - tr3.ysagin.top
+  - tr4ck3r.duckdns.org
   - tracker-udp.gbitt.info
-  - tracker.23794.top
+  - tracker.0x7c0.com
   - tracker.7471.top
   - tracker.adgk.net
   - tracker.aruku.ovh
   - tracker.auctor.tv
   - tracker.bittor.pw
   - tracker.breizh.pm
+  - tracker.bt4g.com
   - tracker.corpscorp.online
   - tracker.ddunlimited.net
   - tracker.dhitechnical.com
@@ -66,15 +66,19 @@ payload:
   - tracker.ducks.party
   - tracker.filemail.com
   - tracker.flatuslifir.is
+  - tracker.fnix.net
   - tracker.foreverpirates.co
   - tracker.gcrenwp.top
   - tracker.gmi.gd
   - tracker.ilibr.org
+  - tracker.iperson.xyz
   - tracker.kuroy.me
   - tracker.leechshield.link
   - tracker.mywaifu.best
   - tracker.nekomi.cn
   - tracker.nexusstream.eu
+  - tracker.nyaa.net
+  - tracker.nyaa.vc
   - tracker.opentorrent.top
   - tracker.opentrackr.com
   - tracker.opentrackr.org
@@ -90,7 +94,9 @@ payload:
   - tracker.renfei.net
   - tracker.skyts.net
   - tracker.teambelgium.net
+  - tracker.theoks.net
   - tracker.torrent.eu.org
+  - tracker.tryhackx.org
   - tracker.waaa.moe
   - tracker.wildkat.net
   - tracker.xn--djrq4gl4hvoi.top
